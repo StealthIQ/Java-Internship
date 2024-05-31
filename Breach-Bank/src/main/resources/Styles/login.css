@@ -1,0 +1,72 @@
+.login_container {
+    -fx-background-color: #1A1A1A;
+    -fx-background-radius: 20px;
+}
+
+.left_side_image {
+    /* Add your styles for the left side image if needed */
+}
+
+.breach_bank_logo {
+    -fx-padding: 20px 0 0 0;
+    -fx-alignment: center;
+}
+
+
+.vbox_sign_up {
+    -fx-background-color: grey;
+}
+
+/* Login Form Styles */
+.login_form_container {
+    -fx-font-family: "Quicksand";
+    -fx-spacing: 20;
+    -fx-padding: 0 20px 0 20px;
+    -fx-alignment: top_left;
+}
+
+.welcome_label {
+    -fx-font-family: "Quicksand Medium";
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 2.9em;
+    -fx-font-weight: 400;
+}
+
+.username_label {
+    -fx-font-family: "Quicksand";
+    -fx-text-fill: #ffffffbb;
+    -fx-font-size: 1.1em;
+    -fx-font-weight: 400;
+}
+
+.input_field {
+    -fx-font-family: "Quicksand";
+    -fx-background-color: #FFFFFF;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 300px;
+    -fx-font-size: 1.2em;
+}
+
+.error_label {
+    -fx-font-family: "Quicksand";
+    -fx-text-fill: #ff0000;
+    -fx-font-size: 1.2em;
+    -fx-font-weight: 600;
+}
+
+.login_form_container Button {
+    -fx-font-family: "Quicksand Medium";
+    -fx-background-color: #fee34b;
+    -fx-background-radius: 10px;
+    -fx-background-radius: 2px;
+    -fx-text-fill: #000000;
+    -fx-pref-width: 423;
+    -fx-pref-height: 35;
+    -fx-font-size: 1.2em;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(two-pass-box, #AAAAAA, 2, 0, 2, 2);
+}
+
+.login_form_container Button:hover {
+    -fx-cursor: hand;
+}
