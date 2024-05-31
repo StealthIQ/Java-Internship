@@ -25,7 +25,7 @@ Java (other technologies may be used as well)
 - Basic arithmetic operations
 - User input handling
 
-![Image](../Java-Internship/CalixPad/App_v2.png)
+![Image](../CalixPad/App_v2.png)
 ---
 
 # Online Banking System
@@ -58,4 +58,4 @@ Implement a Java application with a user-friendly interface that mimics online b
 - Database integration
 - Transaction handling
 
-![Breach Bank App Image](../Java-Internship/Breach-Bank/App_v1.jpeg)
+![Breach Bank App Image](../Breach-Bank/App_v1.jpeg)
