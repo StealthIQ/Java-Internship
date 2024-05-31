@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="60.0" prefWidth="510.0" styleClass="logs_container" stylesheets="@../Styles/TransactionLogs.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+    </padding>
+    <opaqueInsets>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+    </opaqueInsets>
+    <HBox layoutX="14.0" layoutY="11.0" prefHeight="50.0" prefWidth="50.0" styleClass="trans_icon_container" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="441.0" AnchorPane.topAnchor="10.0">
+        <FontAwesomeIconView fx:id="up_symbol" fill="WHITE" glyphName="LONG_ARROW_UP" size="20" />
+        <FontAwesomeIconView fx:id="down_symbol" fill="WHITE" glyphName="LONG_ARROW_DOWN" size="20" />
+    </HBox>
+    <Label fx:id="sender_label" layoutX="112.0" layoutY="18.0" prefHeight="26.0" prefWidth="104.0" styleClass="sender_label" text="\@jhonwick" AnchorPane.leftAnchor="112.0" />
+    <Label fx:id="reciver_log" layoutX="261.0" layoutY="16.0" prefHeight="30.0" prefWidth="104.0" styleClass="reciver_label" text="\@jhonsmith" />
+    <Label fx:id="money_transfered" layoutX="430.0" layoutY="16.0" prefHeight="30.0" prefWidth="53.0" styleClass="money_label" text="2000">
+        <graphic>
+          <FontAwesomeIconView glyphName="DOLLAR" />
+        </graphic>
+    </Label>
+</AnchorPane>

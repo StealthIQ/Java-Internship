@@ -1,0 +1,38 @@
+.logs_container {
+    -fx-background-color: #000000;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #1a1a1a, 5, 0, 0, 7);
+}
+
+.trans_icon_container {
+    -fx-background-color: #1a1a1a1a;
+    -fx-alignment: center;
+    -fx-spacing: 5;
+}
+
+.reciver_label {
+    -fx-font-family: "Quicksand";
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1.4em;
+}
+
+.sender_label {
+    -fx-font-family: "Quicksand Medium";
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1.4em;
+
+}
+
+.money_label {
+    -fx-font-family: "Quicksand Medium";
+    -fx-background-color: #ffc107;
+    -fx-background-radius: 2px;
+    -fx-text-fill: #000000;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-font-weight: 700;
+}
+
+.money_label FontAwesomeIconView {
+    -fx-fill: #000000;
+}
