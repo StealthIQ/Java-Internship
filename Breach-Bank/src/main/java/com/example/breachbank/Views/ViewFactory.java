@@ -3,6 +3,7 @@ package com.example.breachbank.Views;
 import com.example.breachbank.Controllers.Client.ClientController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.scene.paint.Color;
@@ -36,7 +37,7 @@ public class ViewFactory {
         createStage(loader, "ClientWindow");
     }
 
-    private static void createStage(FXMLLoader loader, String windowName) {
+    private void createStage(FXMLLoader loader, String windowName) {
         try {
             // Create the scene
             Scene scene = new Scene(loader.load());
@@ -52,6 +53,12 @@ public class ViewFactory {
 
             // Set the scene to the stage
             stage.setScene(scene);
+
+            // Icon for the app
+            stage.getIcons().add(new Image(String.valueOf(getClass().getResource("/Images/Breach_bank_logo.png"))));
+
+            // Make it unrezizable
+            stage.setResizable(false);
 
             // Set the title for the stage
             stage.setTitle(windowName);
